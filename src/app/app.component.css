@@ -1,0 +1,26 @@
+.mat-toolbar{
+    background-color: rgb(48, 48,48);
+    color: white;
+    height: 5vh;
+    position: relative;
+}
+
+.fb-share-button{
+    position: absolute;
+    top:2px;
+    left:200px;
+}
+
+.pocetna{
+    position: absolute;
+    top:10px;
+    left:270px;
+}
+
+
+.zemlja{
+    position: absolute;
+    top:10px;
+    left:350px;
+}
+

@@ -1,0 +1,51 @@
+<div class = header>
+    <mat-icon [routerLink]="['']"  class = 'ikonicaback'>arrow_back_ios</mat-icon>
+    <h1 class = "koronasrbijah">Koronasrbija.info - COVID-19</h1>
+</div>
+
+<div class ="reklame">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-6358825247345290"
+            data-ad-slot="8972959270"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+
+<div>
+    <p class = "azuriranje" >{{virus?.country}}</p>
+    
+    <p class = "azuriranje" >Ažurirano: <span>{{ukupnoService?.updated | date:'d MMM y, H:mm'}} </span></p>
+
+    <div class = 'ukupnodiv'><span class = "ukupnobrojlevo">100</span><span class="ukupno">Ukupno</span><span class = "ukupnobrojdesno">200</span></div>
+
+    <div class = "novislucajevidiv"><span class = "novislucajevilevo">20</span><span class = "ukupno">Novi slucajevi</span><span class = "novislucajevidesno">30</span></div>
+    
+    <div class = "ukupnoumrlihdiv"><span class = "ukupnoumrlihlevo">20</span><span class = "ukupnoumrlih">Ukupno umrlih</span><span class = "ukupnoumrlihdesno">30</span></div>
+
+
+    <p class = "novihumrlih" >Novi smrtni slučajevi</p>
+    <p class = "novihumrlihbroj" > {{virus?.todayDeaths}}</p>
+
+    <p class = "ukupnooporavljenih" >Ukupno oporavljenih </p>
+    <p class = "ukupnooporavljenihbroj" > {{virus?.recovered}} </p>
+
+    <p class = "aktivni" >Broj aktivnih</p>
+    <p class = "aktivnibroj" >  {{virus?.active}}</p>
+
+    <p class = "kriticnih" >Broj kritičnih</p>
+    <p class = "kriticnihbroj" > {{virus?.critical}} </p>
+</div>
+
+
+<!--<div id="lineChart"><mat-spinner style="margin: auto;"></mat-spinner></div>
+-->
+
+<div class = footer>
+    <p>2020 © Koronasrbija.info</p>
+</div>

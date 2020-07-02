@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap: https://koronasrbija.info/sitemap.xml
